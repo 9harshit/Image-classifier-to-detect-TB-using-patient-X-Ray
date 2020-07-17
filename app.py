@@ -12,9 +12,11 @@ app.config['SECRET_KEY'] = 'mysecretkey'
 def home():
     if request.method == "POST":
         if request.files:
-            image =  request.files["image"]
+            test_image =  request.files["image"]
+            test_image.save(test_image.filename)  
+            test_image = image.load_img(test_image.filename, target_size = (64, 64))
             model = load_model('cnn.h5')
-            test_image = image.load_img(image, target_size = (64, 64))
+            
             test_image = image.img_to_array(test_image)
             test_image = np.expand_dims(test_image, axis = 0)
             result = model.predict(test_image)
