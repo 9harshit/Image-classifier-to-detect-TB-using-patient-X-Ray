@@ -1,4 +1,4 @@
-# Breast Cancer Detect: 
+# TB Detect: 
 * Convolution Neural Network is used to detect TB in patients using X-ray. The user needs to upload their chest X-ray and the system gives them probability of them having TB.
 * The system was trained and tested on two publicly available datasets: Sbenzhen chest X-ray set and Montgomery Country chest X-ray set (MC). Accuracy of 85 percent was achieved.
 * The patient can use this web application as a second opinion to confirm diagnosis.
@@ -33,6 +33,8 @@ In this step, I built a flask API endpoint that is hosted on Heroku. The API end
 
 **Application link:** https://tb-detector.herokuapp.com/
 
-![alt text](https://github.com/9harshit/Breast-Cancer-Detect-Using-ANN/blob/master/README_IMG/form.png "TB Detect Form")
+![alt text](https://github.com/9harshit/
+Image-classifier-to-detect-TB-using-patient-X-Ray/blob/master/README_IMG/form.png "TB Detect Form")
 
-![alt text](https://github.com/9harshit/Breast-Cancer-Detect-Using-ANN/blob/master/README_IMG/prediction.png "Result")
+![alt text](https://github.com/9harshit/
+Image-classifier-to-detect-TB-using-patient-X-Ray/blob/master/README_IMG/prediction.png "Result")
