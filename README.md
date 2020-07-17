@@ -33,6 +33,6 @@ In this step, I built a flask API endpoint that is hosted on Heroku. The API end
 
 **Application link:** https://tb-detector.herokuapp.com/
 
-![alt text](https://github.com/9harshit/Image-classifier-to-detect-TB-using-patient-X-Ray/blob/master/README_IMG/form.png "TB Detect Form")
+![alt text](https://github.com/9harshit/Image-classifier-to-detect-TB-using-patient-X-Ray/blob/master/README_IMG/form.jpg "TB Detect Form")
 
-![alt text](https://github.com/9harshit/Image-classifier-to-detect-TB-using-patient-X-Ray/blob/master/README_IMG/prediction.png "Result")
+![alt text](https://github.com/9harshit/Image-classifier-to-detect-TB-using-patient-X-Ray/blob/master/README_IMG/prediction.jpg "Result")
