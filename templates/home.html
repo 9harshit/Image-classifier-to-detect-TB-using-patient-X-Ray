@@ -41,7 +41,8 @@ table
     -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
     transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
  }
-.files{ position:relative}
+.file{ position:relative
+}
 .files:after {  pointer-events: none;
     position: absolute;
     top: 60px;
@@ -96,16 +97,6 @@ table
   cursor: pointer;
 }
 
-.dropzone{
-	width: 300px;
-	height: 300px;
-	border: 2px dashed #ccc;
-	text-align: center;
-}
-.dropzone.dragover{
-  border-color: #000;
-  color: #000;
-}
 input[type='file'] {
   color: transparent;
 }
@@ -118,13 +109,13 @@ input[type='file'] {
    <tr>
 				<th>
         <div class="form-group files">
-                <input type="file" class="form-control" name="image" required>
+                <input type="file" class="form-control" name="image" accept="image/*" required>
         </div>
       </th>
 			</tr>
 			<tr align="center">
 				<th >
-					  <button type="submit" >Predict Result</button>
+					  <button type="submit" >Upload X-Ray and Predict Result</button>
 				</th>
 			</tr>
 	
